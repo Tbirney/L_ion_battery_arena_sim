@@ -1,0 +1,110 @@
+SIMAN Run Controller.
+
+77.0 Hours>
+                                      ARENA Simulation Results
+                                tcbirney@gmail.com - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 4/ 3/2022
+Analyst: tcbirney@gmail.com                                          Model revision date: 4/ 3/2022
+
+Replication ended at time      : 77.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+copper anode.VATime                         5.0000     (Insuf)    5.0000     5.0000         28    
+copper anode.NVATime                        .00000     (Insuf)    .00000     .00000         28    
+copper anode.WaitTime                       23.642     (Insuf)    1.0000     45.000         28    
+copper anode.TranTime                       .00000     (Insuf)    .00000     .00000         28    
+copper anode.OtherTime                      .00000     (Insuf)    .00000     .00000         28    
+copper anode.TotalTime                      28.642     (Insuf)    6.0000     50.000         28    
+aluminum cathode.VATime                     5.0000     (Insuf)    5.0000     5.0000         25    
+aluminum cathode.NVATime                    .00000     (Insuf)    .00000     .00000         25    
+aluminum cathode.WaitTime                   21.610     (Insuf)    .00000     43.384         25    
+aluminum cathode.TranTime                   .00000     (Insuf)    .00000     .00000         25    
+aluminum cathode.OtherTime                  .00000     (Insuf)    .00000     .00000         25    
+aluminum cathode.TotalTime                  26.610     (Insuf)    5.0000     48.384         25    
+slurry material.VATime                      6.0000     (Insuf)    6.0000     6.0000         20    
+slurry material.NVATime                     .00000     (Insuf)    .00000     .00000         20    
+slurry material.WaitTime                    24.767     (Insuf)    5.0000     44.548         20    
+slurry material.TranTime                    .00000     (Insuf)    .00000     .00000         20    
+slurry material.OtherTime                   .00000     (Insuf)    .00000     .00000         20    
+slurry material.TotalTime                   30.767     (Insuf)    11.000     50.548         20    
+Coating.Queue.WaitingTime                   24.206     (Insuf)    .00000     47.307         77    
+Drying.Queue.WaitingTime                    .00000     (Insuf)    .00000     .00000         76    
+Mixing.Queue.WaitingTime                    1.4256     (Insuf)    .00000     3.8516         65    
+Vacuum Drying.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000         74    
+Splitting.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000         75    
+Calendering.Queue.WaitingTime               .00000     (Insuf)    .00000     .00000         76    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+copper anode.WIP                            26.324     (Insuf)    .00000     50.000     49.000    
+aluminum cathode.WIP                        21.770     (Insuf)    .00000     43.000     43.000    
+slurry material.WIP                         24.693     (Insuf)    .00000     46.000     45.000    
+Cutter.NumberBusy                           .96104     (Insuf)    .00000     1.0000     1.0000    
+Cutter.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cutter.Utilization                          .96104     (Insuf)    .00000     1.0000     1.0000    
+Vacuum Dryer.NumberBusy                     .94805     (Insuf)    .00000     1.0000     1.0000    
+Vacuum Dryer.NumberScheduled                1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Vacuum Dryer.Utilization                    .94805     (Insuf)    .00000     1.0000     1.0000    
+Mixer.NumberBusy                            .84416     (Insuf)    .00000     1.0000     .00000    
+Mixer.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Mixer.Utilization                           .84416     (Insuf)    .00000     1.0000     .00000    
+Stoarage Tank.NumberBusy                    1.0000     (Insuf)    .00000     1.0000     1.0000    
+Stoarage Tank.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Stoarage Tank.Utilization                   1.0000     (Insuf)    .00000     1.0000     1.0000    
+Roller.NumberBusy                           .97403     (Insuf)    .00000     1.0000     1.0000    
+Roller.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Roller.Utilization                          .97403     (Insuf)    .00000     1.0000     1.0000    
+Coater.NumberBusy                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Coater.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Coater.Utilization                          1.0000     (Insuf)    .00000     1.0000     1.0000    
+Drying Chamber.NumberBusy                   .98701     (Insuf)    .00000     1.0000     .00000    
+Drying Chamber.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Drying Chamber.Utilization                  .98701     (Insuf)    .00000     1.0000     .00000    
+Coating.Queue.NumberInQueue                 65.870     (Insuf)    .00000     133.00     133.00    
+Drying.Queue.NumberInQueue                  .00000     (Insuf)    .00000     .00000     .00000    
+Mixing.Queue.NumberInQueue                  1.2035     (Insuf)    .00000     4.0000     .00000    
+Vacuum Drying.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Splitting.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+Calendering.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+copper anode.NumberIn                       77.000    
+copper anode.NumberOut                      28.000    
+aluminum cathode.NumberIn                   68.000    
+aluminum cathode.NumberOut                  25.000    
+slurry material.NumberIn                    65.000    
+slurry material.NumberOut                   20.000    
+Cutter.NumberSeized                         75.000    
+Cutter.ScheduledUtilization                 .96104    
+Vacuum Dryer.NumberSeized                   74.000    
+Vacuum Dryer.ScheduledUtilization           .94805    
+Mixer.NumberSeized                          65.000    
+Mixer.ScheduledUtilization                  .84416    
+Stoarage Tank.NumberSeized                  77.000    
+Stoarage Tank.ScheduledUtilization          1.0000    
+Roller.NumberSeized                         76.000    
+Roller.ScheduledUtilization                 .97403    
+Coater.NumberSeized                         77.000    
+Coater.ScheduledUtilization                 1.0000    
+Drying Chamber.NumberSeized                 76.000    
+Drying Chamber.ScheduledUtilization         .98701    
+System.NumberOut                            73.000    
+
+
+Simulation run time: 0.37 minutes.
+Simulation run complete.

@@ -1,0 +1,25 @@
+[RESOURCES]
+Cutter
+Vacuum Dryer
+Mixer
+Stoarage Tank
+Roller
+Coater
+Drying Chamber
+[VARIABLES]
+Coating.NumberOut
+Splitting.NumberIn
+Slurry Material Arrival.NumberOut
+Splitting.NumberOut
+Mixing.NumberOut
+Mixing.NumberIn
+Calendering.NumberOut
+Calendering.NumberIn
+Drying.NumberIn
+Drying.NumberOut
+Demoisturized Electrode Rolls.NumberOut
+Vacuum Drying.NumberOut
+Vacuum Drying.NumberIn
+Coating.NumberIn
+Aluminum Cathode Part Arrival.NumberOut
+Copper Anode Part Arrival.NumberOut
