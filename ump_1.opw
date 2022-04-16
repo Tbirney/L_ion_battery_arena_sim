@@ -1,25 +1,37 @@
 [RESOURCES]
-Cutter
-Vacuum Dryer
-Mixer
-Stoarage Tank
-Roller
-Coater
-Drying Chamber
+roller knives
+dryer
+slot die coater
+mixer
+suction device
+heated vacuum chamber
+calendar rollers
 [VARIABLES]
-Coating.NumberOut
-Splitting.NumberIn
-Slurry Material Arrival.NumberOut
-Splitting.NumberOut
-Mixing.NumberOut
-Mixing.NumberIn
-Calendering.NumberOut
-Calendering.NumberIn
-Drying.NumberIn
-Drying.NumberOut
-Demoisturized Electrode Rolls.NumberOut
+first coating.NumberOut
+second coating.NumberIn
+first coating.NumberIn
+Decide 1.NumberOut False
+second coating.NumberOut
+first drying.NumberIn
+Cathode Foil Arrival.NumberOut
+cathode coating batch.NumberOut
+Anode Foil Arrival.NumberOut
+cathode slurry mixing.NumberOut
+cathode slurry mixing.NumberIn
+Anode Roll.NumberOut
+Cathode Slurry Arrival.NumberOut
+Process Roll.NumberOut
+anode slurry mixing.NumberIn
+anode slurry mixing.NumberOut
+Anode Slurry Arrival.NumberOut
+second drying.NumberIn
+second drying.NumberOut
+splitting and cleaning.NumberIn
+splitting and cleaning.NumberOut
+anode coating batch.NumberOut
+first drying.NumberOut
 Vacuum Drying.NumberOut
 Vacuum Drying.NumberIn
-Coating.NumberIn
-Aluminum Cathode Part Arrival.NumberOut
-Copper Anode Part Arrival.NumberOut
+calendaring and cleaning.NumberIn
+calendaring and cleaning.NumberOut
+Decide 1.NumberOut True
