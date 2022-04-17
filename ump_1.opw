@@ -1,5 +1,6 @@
 [RESOURCES]
 roller knives
+Resource 1
 dryer
 slot die coater
 mixer
@@ -15,6 +16,7 @@ first coating.NumberIn
 Decide 1.NumberOut False
 first drying.NumberIn
 second coating.NumberOut
+Winding.NumberIn
 Separation.NumberOut
 Cathode Foil Arrival.NumberOut
 Sealing.NumberOut
@@ -49,6 +51,7 @@ Separation.NumberIn
 vacuum drying.NumberOut
 first drying.NumberOut
 Insertion.NumberOut
+Winding.NumberOut
 vacuum drying.NumberIn
 Degassing.NumberIn
 Sealing.NumberIn
