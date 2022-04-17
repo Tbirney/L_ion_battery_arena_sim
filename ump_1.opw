@@ -8,30 +8,55 @@ heated vacuum chamber
 calendar rollers
 [VARIABLES]
 first coating.NumberOut
+Batch 14.NumberOut
+Batch 13.NumberOut
 second coating.NumberIn
 first coating.NumberIn
 Decide 1.NumberOut False
-second coating.NumberOut
 first drying.NumberIn
+second coating.NumberOut
+Separation.NumberOut
 Cathode Foil Arrival.NumberOut
+Sealing.NumberOut
 cathode coating batch.NumberOut
+Insertion.NumberIn
 Anode Foil Arrival.NumberOut
+Cell Clamping.NumberIn
+Cell Clamping.NumberOut
 cathode slurry mixing.NumberOut
 cathode slurry mixing.NumberIn
-Anode Roll.NumberOut
+Degassing.NumberOut
+Formation.NumberIn
 Cathode Slurry Arrival.NumberOut
-Process Roll.NumberOut
 anode slurry mixing.NumberIn
 anode slurry mixing.NumberOut
 Anode Slurry Arrival.NumberOut
 second drying.NumberIn
+Aging.NumberOut
+Cooling Channel.NumberIn
+welding.NumberIn
 second drying.NumberOut
+welding.NumberOut
+Aging.NumberIn
 splitting and cleaning.NumberIn
 splitting and cleaning.NumberOut
+High Temperature Aging.NumberOut
+High Temperature Aging.NumberIn
 anode coating batch.NumberOut
+Separate 1.NumberOut Orig
+Dispose 4.NumberOut
+Separation.NumberIn
+vacuum drying.NumberOut
 first drying.NumberOut
-Vacuum Drying.NumberOut
-Vacuum Drying.NumberIn
+Insertion.NumberOut
+vacuum drying.NumberIn
+Degassing.NumberIn
+Sealing.NumberIn
+Formation.NumberOut
 calendaring and cleaning.NumberIn
 calendaring and cleaning.NumberOut
+Cooling Channel.NumberOut
+Electroliyte Filling.NumberIn
+Electroliyte Filling.NumberOut
+Separator Material.NumberOut
 Decide 1.NumberOut True
