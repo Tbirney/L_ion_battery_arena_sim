@@ -1,0 +1,37 @@
+[RESOURCES]
+roller knives
+dryer
+slot die coater
+mixer
+suction device
+heated vacuum chamber
+calendar rollers
+[VARIABLES]
+first coating.NumberOut
+second coating.NumberIn
+first coating.NumberIn
+Decide 1.NumberOut False
+second coating.NumberOut
+first drying.NumberIn
+Cathode Foil Arrival.NumberOut
+cathode coating batch.NumberOut
+Anode Foil Arrival.NumberOut
+cathode slurry mixing.NumberOut
+cathode slurry mixing.NumberIn
+Anode Roll.NumberOut
+Cathode Slurry Arrival.NumberOut
+Process Roll.NumberOut
+anode slurry mixing.NumberIn
+anode slurry mixing.NumberOut
+Anode Slurry Arrival.NumberOut
+second drying.NumberIn
+second drying.NumberOut
+splitting and cleaning.NumberIn
+splitting and cleaning.NumberOut
+anode coating batch.NumberOut
+first drying.NumberOut
+Vacuum Drying.NumberOut
+Vacuum Drying.NumberIn
+calendaring and cleaning.NumberIn
+calendaring and cleaning.NumberOut
+Decide 1.NumberOut True
