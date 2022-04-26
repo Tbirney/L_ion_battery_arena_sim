@@ -9,57 +9,56 @@ heated vacuum chamber
 calendar rollers
 [VARIABLES]
 first coating.NumberOut
-Batch 14.NumberOut
-Batch 13.NumberOut
 second coating.NumberIn
 first coating.NumberIn
 Decide 1.NumberOut False
 first drying.NumberIn
 second coating.NumberOut
+High Temperature Ageing.NumberOut
 Winding.NumberIn
-Separation.NumberOut
-Cathode Foil Arrival.NumberOut
+Sorting.NumberOut
 Sealing.NumberOut
-cathode coating batch.NumberOut
 Insertion.NumberIn
-Anode Foil Arrival.NumberOut
 Cell Clamping.NumberIn
 Cell Clamping.NumberOut
 cathode slurry mixing.NumberOut
 cathode slurry mixing.NumberIn
-Degassing.NumberOut
 Formation.NumberIn
-Cathode Slurry Arrival.NumberOut
 anode slurry mixing.NumberIn
+Daughter Roll to Cell C.NumberOut Orig
+Daughter Roll to Cell A.NumberOut Orig
 anode slurry mixing.NumberOut
-Anode Slurry Arrival.NumberOut
 second drying.NumberIn
 Aging.NumberOut
 Cooling Channel.NumberIn
 welding.NumberIn
+High Temperature Ageing.NumberIn
 second drying.NumberOut
 welding.NumberOut
+Anode Material Arrival.NumberOut
 Aging.NumberIn
 splitting and cleaning.NumberIn
 splitting and cleaning.NumberOut
-High Temperature Aging.NumberOut
-High Temperature Aging.NumberIn
-anode coating batch.NumberOut
-Separate 1.NumberOut Orig
+Cathode Material Arrival.NumberOut
+Batch Mother Roll A.NumberOut
 Dispose 4.NumberOut
-Separation.NumberIn
 vacuum drying.NumberOut
 first drying.NumberOut
 Insertion.NumberOut
+Individual Cell.NumberOut Orig
 Winding.NumberOut
 vacuum drying.NumberIn
-Degassing.NumberIn
+Batch Daughter Rolls A.NumberOut
+Batch Mother Roll C.NumberOut
+Cell Tray 1.NumberOut
+Mother to Daughter Rolls.NumberOut Orig
 Sealing.NumberIn
 Formation.NumberOut
+Sorting.NumberIn
 calendaring and cleaning.NumberIn
 calendaring and cleaning.NumberOut
 Cooling Channel.NumberOut
+Batch Daughter Roll C.NumberOut
 Electroliyte Filling.NumberIn
 Electroliyte Filling.NumberOut
-Separator Material.NumberOut
 Decide 1.NumberOut True
