@@ -25,8 +25,8 @@ cathode slurry mixing.NumberOut
 cathode slurry mixing.NumberIn
 Formation.NumberIn
 anode slurry mixing.NumberIn
-Daughter Roll to Cell C.NumberOut Orig
 Daughter Roll to Cell A.NumberOut Orig
+Daughter Roll to Cell C.NumberOut Orig
 anode slurry mixing.NumberOut
 second drying.NumberIn
 Aging.NumberOut

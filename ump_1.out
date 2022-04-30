@@ -1,13 +1,28 @@
 
+----------------------------------------------------------------------
+19162:RELONE
+Entity: 31
+A runtime error was detected at time 22.029467 at the following block:
+
+ *   52 376$            RELEASE:heated vacuum chamber,4;
+
+Attempt to release non-busy resource heated vacuum chamber.
+Cannot release 4.0 units when number busy is 0.0.
+----------------------------------------------------------------------
+
+
+SIMAN Run Controller.
+
+22.029467 Hours>
                                       ARENA Simulation Results
                                    Windows User - License: STUDENT
 
                                   Summary for Replication 1 of 1
 
-Project: Unnamed Project                                             Run execution date : 4/26/2022
-Analyst: tcbirney@gmail.com                                          Model revision date: 4/26/2022
+Project: Unnamed Project                                             Run execution date : 4/30/2022
+Analyst: tcbirney@gmail.com                                          Model revision date: 4/30/2022
 
-Replication ended at time      : 1127.607 Hours 
+Replication ended at time      : 22.029467 Hours 
 Base Time Units: Hours
 
                                            TALLY VARIABLES
@@ -27,12 +42,12 @@ anode.WaitTime                                  --         --         --        
 anode.TranTime                                  --         --         --         --          0
 anode.OtherTime                                 --         --         --         --          0
 anode.TotalTime                                 --         --         --         --          0
-roll.VATime                                 89.933     (Insuf)    74.918     104.90        135    
-roll.NVATime                                .00000     (Insuf)    .00000     .00000        135    
-roll.WaitTime                               171.76     (Insuf)    109.27     231.37        135    
-roll.TranTime                               .00000     (Insuf)    .00000     .00000        135    
-roll.OtherTime                              .00000     (Insuf)    .00000     .00000        135    
-roll.TotalTime                              147.34     (Insuf)    108.93     180.20        135    
+roll.VATime                                     --         --         --         --          0
+roll.NVATime                                    --         --         --         --          0
+roll.WaitTime                                   --         --         --         --          0
+roll.TranTime                                   --         --         --         --          0
+roll.OtherTime                                  --         --         --         --          0
+roll.TotalTime                                  --         --         --         --          0
 cathode.VATime                                  --         --         --         --          0
 cathode.NVATime                                 --         --         --         --          0
 cathode.WaitTime                                --         --         --         --          0
@@ -63,77 +78,75 @@ daughter roll A.WaitTime                        --         --         --        
 daughter roll A.TranTime                        --         --         --         --          0
 daughter roll A.OtherTime                       --         --         --         --          0
 daughter roll A.TotalTime                       --         --         --         --          0
-second coating.Queue.WaitingTime            .03194     (Insuf)    .00000     .24775         10    
-splitting and cleaning.Queue.WaitingTime    .00000     (Insuf)    .00000     .00000         10    
-Cell Tray 1.Queue.WaitingTime               1.8759     (Insuf)    .00000     4.4970        135    
-anode slurry mixing.Queue.WaitingTime       .90446     (Insuf)    .00000     2.3143          5    
-Winding.Queue.WaitingTime                   1.8659     (Insuf)    .00000     3.7977        135    
-Batch Daughter Roll C.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000        135    
-Batch Daughter Rolls A.Queue.WaitingTime    .00000     (Insuf)    .00000     .00000        135    
-vacuum drying.Queue.WaitingTime             49.725     (Insuf)    .00000     109.94         30    
-first coating.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000         10    
-first drying.Queue.WaitingTime              .00482     (Insuf)    .00000     .04820         10    
-cathode slurry mixing.Queue.WaitingTime     3.2421     (Insuf)    .00000     9.2769          5    
-Batch Mother Roll A.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         15    
-calendaring and cleaning.Queue.WaitingTime  .08175     (Insuf)    .00000     .81750         10    
-second drying.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000         10    
-Match 1.Queue1.WaitingTime                  38.374     (Insuf)    .00000     75.858        135    
-Match 1.Queue2.WaitingTime                  25.816     (Insuf)    .00000     75.138        135    
-Batch Mother Roll C.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000         15    
+second coating.Queue.WaitingTime            .00000     (Insuf)    .00000     .00000          2    
+splitting and cleaning.Queue.WaitingTime    .00000     (Insuf)    .00000     .00000          2    
+Cell Tray 1.Queue.WaitingTime                   --         --         --         --          0
+anode slurry mixing.Queue.WaitingTime       2.3143     (Insuf)    2.3143     2.3143          1    
+Winding.Queue.WaitingTime                       --         --         --         --          0
+Batch Daughter Roll C.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000         27    
+Batch Daughter Rolls A.Queue.WaitingTime    .00000     (Insuf)    .00000     .00000         27    
+first coating.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          2    
+first drying.Queue.WaitingTime              .00000     (Insuf)    .00000     .00000          2    
+cathode slurry mixing.Queue.WaitingTime     .00000     (Insuf)    .00000     .00000          1    
+Batch Mother Roll A.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000          3    
+calendaring and cleaning.Queue.WaitingTime  .00000     (Insuf)    .00000     .00000          2    
+second drying.Queue.WaitingTime             .00000     (Insuf)    .00000     .00000          2    
+Match 1.Queue1.WaitingTime                      --         --         --         --          0
+Match 1.Queue2.WaitingTime                      --         --         --         --          0
+Batch Mother Roll C.Queue.WaitingTime       .00000     (Insuf)    .00000     .00000          3    
 
                                      DISCRETE-CHANGE VARIABLES
 
 Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
 ___________________________________________________________________________________________________
 
-cell tray.WIP                               .31646     (Insuf)    .00000     2.0000     .00000    
-anode.WIP                                   17.640     (Insuf)    .00000     27.000     .00000    
-roll.WIP                                    3.9493     (Insuf)    .00000     18.000     .00000    
-cathode.WIP                                 17.640     (Insuf)    .00000     27.000     .00000    
-mother roll A.WIP                           .05166     (Insuf)    .00000     1.0000     .00000    
-mother roll C.WIP                           .05180     (Insuf)    .00000     1.0000     .00000    
-daughter roll C.WIP                         1.1778     (Insuf)    .00000     3.0000     .00000    
-daughter roll A.WIP                         1.0107     (Insuf)    .00000     3.0000     .00000    
-roller knives.NumberBusy                    .00916     (Insuf)    .00000     1.0000     .00000    
+cell tray.WIP                               .00000     (Insuf)    .00000     .00000     .00000    
+anode.WIP                                   27.000     (Insuf)    .00000     27.000     27.000    
+roll.WIP                                    .00000     (Insuf)    .00000     .00000     .00000    
+cathode.WIP                                 27.000     (Insuf)    .00000     27.000     27.000    
+mother roll A.WIP                           .51573     (Insuf)    .00000     1.0000     .00000    
+mother roll C.WIP                           .34775     (Insuf)    .00000     1.0000     .00000    
+daughter roll C.WIP                         3.0000     (Insuf)    .00000     3.0000     3.0000    
+daughter roll A.WIP                         3.0000     (Insuf)    .00000     3.0000     3.0000    
+roller knives.NumberBusy                    .09598     (Insuf)    .00000     1.0000     .00000    
 roller knives.NumberScheduled               1.0000     (Insuf)    1.0000     1.0000     1.0000    
-roller knives.Utilization                   .00916     (Insuf)    .00000     1.0000     .00000    
-Resource 1.NumberBusy                       .05591     (Insuf)    .00000     1.0000     .00000    
+roller knives.Utilization                   .09598     (Insuf)    .00000     1.0000     .00000    
+Resource 1.NumberBusy                       .00000     (Insuf)    .00000     .00000     .00000    
 Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
-Resource 1.Utilization                      .05591     (Insuf)    .00000     1.0000     .00000    
-dryer.NumberBusy                            .01745     (Insuf)    .00000     1.0000     .00000    
+Resource 1.Utilization                      .00000     (Insuf)    .00000     .00000     .00000    
+dryer.NumberBusy                            .16412     (Insuf)    .00000     1.0000     .00000    
 dryer.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
-dryer.Utilization                           .01745     (Insuf)    .00000     1.0000     .00000    
-slot die coater.NumberBusy                  .01699     (Insuf)    .00000     1.0000     .00000    
+dryer.Utilization                           .16412     (Insuf)    .00000     1.0000     .00000    
+slot die coater.NumberBusy                  .17019     (Insuf)    .00000     1.0000     .00000    
 slot die coater.NumberScheduled             1.0000     (Insuf)    1.0000     1.0000     1.0000    
-slot die coater.Utilization                 .01699     (Insuf)    .00000     1.0000     .00000    
-mixer.NumberBusy                            .03241     (Insuf)    .00000     1.0000     .00000    
+slot die coater.Utilization                 .17019     (Insuf)    .00000     1.0000     .00000    
+mixer.NumberBusy                            .23540     (Insuf)    .00000     1.0000     .00000    
 mixer.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
-mixer.Utilization                           .03241     (Insuf)    .00000     1.0000     .00000    
-suction device.NumberBusy                   .01717     (Insuf)    .00000     1.0000     .00000    
+mixer.Utilization                           .23540     (Insuf)    .00000     1.0000     .00000    
+suction device.NumberBusy                   .18871     (Insuf)    .00000     1.0000     .00000    
 suction device.NumberScheduled              1.0000     (Insuf)    1.0000     1.0000     1.0000    
-suction device.Utilization                  .01717     (Insuf)    .00000     1.0000     .00000    
-heated vacuum chamber.NumberBusy            .55521     (Insuf)    .00000     1.0000     .00000    
+suction device.Utilization                  .18871     (Insuf)    .00000     1.0000     .00000    
+heated vacuum chamber.NumberBusy            .00000     (Insuf)    .00000     .00000     .00000    
 heated vacuum chamber.NumberScheduled       1.0000     (Insuf)    1.0000     1.0000     1.0000    
-heated vacuum chamber.Utilization           .55521     (Insuf)    .00000     1.0000     .00000    
-calendar rollers.NumberBusy                 .00801     (Insuf)    .00000     1.0000     .00000    
+heated vacuum chamber.Utilization           .00000     (Insuf)    .00000     .00000     .00000    
+calendar rollers.NumberBusy                 .09273     (Insuf)    .00000     1.0000     .00000    
 calendar rollers.NumberScheduled            1.0000     (Insuf)    1.0000     1.0000     1.0000    
-calendar rollers.Utilization                .00801     (Insuf)    .00000     1.0000     .00000    
-second coating.Queue.NumberInQueue           2.8330E-4 (Insuf)    .00000     1.0000     .00000    
+calendar rollers.Utilization                .09273     (Insuf)    .00000     1.0000     .00000    
+second coating.Queue.NumberInQueue          .00000     (Insuf)    .00000     .00000     .00000    
 splitting and cleaning.Queue.NumberInQueue  .00000     (Insuf)    .00000     .00000     .00000    
-Cell Tray 1.Queue.NumberInQueue             .22459     (Insuf)    .00000     9.0000     .00000    
-anode slurry mixing.Queue.NumberInQueue     .00401     (Insuf)    .00000     1.0000     .00000    
-Winding.Queue.NumberInQueue                 .22340     (Insuf)    .00000     8.0000     .00000    
+Cell Tray 1.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+anode slurry mixing.Queue.NumberInQueue     .10505     (Insuf)    .00000     1.0000     .00000    
+Winding.Queue.NumberInQueue                 .00000     (Insuf)    .00000     .00000     .00000    
 Batch Daughter Roll C.Queue.NumberInQueue   .00000     (Insuf)    .00000     9.0000     .00000    
 Batch Daughter Rolls A.Queue.NumberInQueue  .00000     (Insuf)    .00000     9.0000     .00000    
-vacuum drying.Queue.NumberInQueue           1.3229     (Insuf)    .00000     5.0000     .00000    
 first coating.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
-first drying.Queue.NumberInQueue             4.2744E-5 (Insuf)    .00000     1.0000     .00000    
-cathode slurry mixing.Queue.NumberInQueue   .01438     (Insuf)    .00000     1.0000     .00000    
+first drying.Queue.NumberInQueue            .00000     (Insuf)    .00000     .00000     .00000    
+cathode slurry mixing.Queue.NumberInQueue   .00000     (Insuf)    .00000     .00000     .00000    
 Batch Mother Roll A.Queue.NumberInQueue     .00000     (Insuf)    .00000     3.0000     .00000    
-calendaring and cleaning.Queue.NumberInQue   7.2499E-4 (Insuf)    .00000     1.0000     .00000    
+calendaring and cleaning.Queue.NumberInQue  .00000     (Insuf)    .00000     .00000     .00000    
 second drying.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
-Match 1.Queue1.NumberInQueue                4.5943     (Insuf)    .00000     27.000     .00000    
-Match 1.Queue2.NumberInQueue                3.0907     (Insuf)    .00000     27.000     .00000    
+Match 1.Queue1.NumberInQueue                .00000     (Insuf)    .00000     .00000     .00000    
+Match 1.Queue2.NumberInQueue                .00000     (Insuf)    .00000     .00000     .00000    
 Batch Mother Roll C.Queue.NumberInQueue     .00000     (Insuf)    .00000     3.0000     .00000    
 
                                              OUTPUTS
@@ -141,40 +154,40 @@ Batch Mother Roll C.Queue.NumberInQueue     .00000     (Insuf)    .00000     3.0
 Identifier                                   Value
 _____________________________________________________________
 
-cell tray.NumberIn                          15.000    
-cell tray.NumberOut                         15.000    
-anode.NumberIn                              135.00    
-anode.NumberOut                             135.00    
-roll.NumberIn                               135.00    
-roll.NumberOut                              135.00    
-cathode.NumberIn                            135.00    
-cathode.NumberOut                           135.00    
-mother roll A.NumberIn                      5.0000    
-mother roll A.NumberOut                     5.0000    
-mother roll C.NumberIn                      5.0000    
-mother roll C.NumberOut                     5.0000    
-daughter roll C.NumberIn                    15.000    
-daughter roll C.NumberOut                   15.000    
-daughter roll A.NumberIn                    15.000    
-daughter roll A.NumberOut                   15.000    
-roller knives.NumberSeized                  10.000    
-roller knives.ScheduledUtilization          .00916    
-Resource 1.NumberSeized                     135.00    
-Resource 1.ScheduledUtilization             .05591    
-dryer.NumberSeized                          20.000    
-dryer.ScheduledUtilization                  .01745    
-slot die coater.NumberSeized                20.000    
-slot die coater.ScheduledUtilization        .01699    
-mixer.NumberSeized                          10.000    
-mixer.ScheduledUtilization                  .03241    
-suction device.NumberSeized                 20.000    
-suction device.ScheduledUtilization         .01717    
-heated vacuum chamber.NumberSeized          30.000    
-heated vacuum chamber.ScheduledUtilization  .55521    
-calendar rollers.NumberSeized               10.000    
-calendar rollers.ScheduledUtilization       .00801    
-System.NumberOut                            135.00    
+cell tray.NumberIn                          .00000    
+cell tray.NumberOut                         .00000    
+anode.NumberIn                              27.000    
+anode.NumberOut                             .00000    
+roll.NumberIn                               .00000    
+roll.NumberOut                              .00000    
+cathode.NumberIn                            27.000    
+cathode.NumberOut                           .00000    
+mother roll A.NumberIn                      1.0000    
+mother roll A.NumberOut                     1.0000    
+mother roll C.NumberIn                      1.0000    
+mother roll C.NumberOut                     1.0000    
+daughter roll C.NumberIn                    3.0000    
+daughter roll C.NumberOut                   .00000    
+daughter roll A.NumberIn                    3.0000    
+daughter roll A.NumberOut                   .00000    
+roller knives.NumberSeized                  2.0000    
+roller knives.ScheduledUtilization          .09598    
+Resource 1.NumberSeized                     .00000    
+Resource 1.ScheduledUtilization             .00000    
+dryer.NumberSeized                          4.0000    
+dryer.ScheduledUtilization                  .16412    
+slot die coater.NumberSeized                4.0000    
+slot die coater.ScheduledUtilization        .17019    
+mixer.NumberSeized                          2.0000    
+mixer.ScheduledUtilization                  .23540    
+suction device.NumberSeized                 4.0000    
+suction device.ScheduledUtilization         .18871    
+heated vacuum chamber.NumberSeized          .00000    
+heated vacuum chamber.ScheduledUtilization  .00000    
+calendar rollers.NumberSeized               2.0000    
+calendar rollers.ScheduledUtilization       .09273    
+System.NumberOut                            .00000    
 
 
-Simulation run time: 0.05 minutes.
-Simulation run complete.
+Simulation run time: 0.25 minutes.
+Simulation run completed with 1 error(s) and 0 warning(s).
