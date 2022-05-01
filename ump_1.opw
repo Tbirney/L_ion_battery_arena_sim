@@ -11,10 +11,13 @@ calendar rollers
 first coating.NumberOut
 second coating.NumberIn
 first coating.NumberIn
+Decide 5.NumberOut False
+Decide 4.NumberOut False
 Decide 1.NumberOut False
 first drying.NumberIn
 second coating.NumberOut
 High Temperature Ageing.NumberOut
+Deconstruct Jelly Roll.NumberOut Orig
 Winding.NumberIn
 Sorting.NumberOut
 Sealing.NumberOut
@@ -25,6 +28,7 @@ Cell Clamping.NumberOut
 cathode slurry mixing.NumberOut
 cathode slurry mixing.NumberIn
 Formation.NumberIn
+Regenerated LiFePO4.NumberOut
 anode slurry mixing.NumberIn
 Daughter Roll to Cell A.NumberOut Orig
 Daughter Roll to Cell C.NumberOut Orig
@@ -42,15 +46,14 @@ splitting and cleaning.NumberIn
 splitting and cleaning.NumberOut
 Cathode Material Arrival.NumberOut
 Batch Mother Roll A.NumberOut
-Dispose 4.NumberOut
 vacuum drying.NumberOut
 first drying.NumberOut
 Insertion.NumberOut
-Dispose 5.NumberOut
 Individual Cell.NumberOut Orig
 Winding.NumberOut
 vacuum drying.NumberIn
 Batch Daughter Rolls A.NumberOut
+Gather Regenerated Materials.NumberOut Orig
 Batch Mother Roll C.NumberOut
 Hydrothermal.NumberOut
 Cell Tray 1.NumberOut
@@ -65,5 +68,8 @@ Cooling Channel.NumberOut
 Hummers.NumberOut
 Batch Daughter Roll C.NumberOut
 Electroliyte Filling.NumberIn
+Regenerated RGO.NumberOut
 Electroliyte Filling.NumberOut
+Decide 5.NumberOut True
+Decide 4.NumberOut True
 Decide 1.NumberOut True
