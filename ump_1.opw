@@ -1,18 +1,20 @@
 [RESOURCES]
 roller knives
-Resource 1
 dryer
 slot die coater
 mixer
+Robotic Manipulator
+Winder
 suction device
+Human
 heated vacuum chamber
 calendar rollers
 [VARIABLES]
 first coating.NumberOut
 second coating.NumberIn
 first coating.NumberIn
-Decide 5.NumberOut False
 Decide 4.NumberOut False
+Decide 5.NumberOut False
 Decide 1.NumberOut False
 first drying.NumberIn
 second coating.NumberOut
@@ -46,6 +48,7 @@ splitting and cleaning.NumberIn
 splitting and cleaning.NumberOut
 Cathode Material Arrival.NumberOut
 Batch Mother Roll A.NumberOut
+Undo Drying Batch.NumberOut Orig
 vacuum drying.NumberOut
 first drying.NumberOut
 Insertion.NumberOut
@@ -70,6 +73,7 @@ Batch Daughter Roll C.NumberOut
 Electroliyte Filling.NumberIn
 Regenerated RGO.NumberOut
 Electroliyte Filling.NumberOut
-Decide 5.NumberOut True
 Decide 4.NumberOut True
+Decide 5.NumberOut True
 Decide 1.NumberOut True
+Drying Batch.NumberOut

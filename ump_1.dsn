@@ -9,5 +9,5 @@ MaxScanRows=8
 MaxBufferSize=2048
 FIL=MS Access
 DriverId=281
-DefaultDir=c:\Users\tcbir\Documents\GitHub\L_ion_battery_arena_sim
-DBQ=C:\Users\tcbir\Documents\GitHub\L_ion_battery_arena_sim\ump_1.accdb
+DefaultDir=c:\Users\rlazcano\L_ion_battery_arena_sim
+DBQ=C:\Users\rlazcano\L_ion_battery_arena_sim\ump_1.accdb
