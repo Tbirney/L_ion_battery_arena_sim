@@ -1,0 +1,65 @@
+
+                                      ARENA Simulation Results
+                                   Windows User - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 4/19/2022
+Analyst: Windows User                                                Model revision date: 4/19/2022
+
+Replication ended at time      : 0.0825 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+mother roll.VATime                              --         --         --         --          0
+mother roll.NVATime                             --         --         --         --          0
+mother roll.WaitTime                            --         --         --         --          0
+mother roll.TranTime                            --         --         --         --          0
+mother roll.OtherTime                           --         --         --         --          0
+mother roll.TotalTime                           --         --         --         --          0
+Cathode Slurry.VATime                       .00000     .00000     .00000     .00000       2000    
+Cathode Slurry.NVATime                      .00000     .00000     .00000     .00000       2000    
+Cathode Slurry.WaitTime                     .00000     .00000     .00000     .00000       2000    
+Cathode Slurry.TranTime                     .00000     .00000     .00000     .00000       2000    
+Cathode Slurry.OtherTime                    .00000     .00000     .00000     .00000       2000    
+Cathode Slurry.TotalTime                    .00000     .00000     .00000     .00000       2000    
+daughter roll.VATime                            --         --         --         --          0
+daughter roll.NVATime                           --         --         --         --          0
+daughter roll.WaitTime                          --         --         --         --          0
+daughter roll.TranTime                          --         --         --         --          0
+daughter roll.OtherTime                         --         --         --         --          0
+daughter roll.TotalTime                         --         --         --         --          0
+Mother Roll Batch.Queue.WaitingTime         .00000     .00000     .00000     .00000        500    
+Daughter Roll Batch.Queue.WaitingTime       .00000     .00000     .00000     .00000       2000    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+mother roll.WIP                             .00000     (Insuf)    .00000     1.0000     .00000    
+Cathode Slurry.WIP                          .00000     (Insuf)    .00000     20.000     .00000    
+daughter roll.WIP                           .00000     (Insuf)    .00000     5.0000     .00000    
+Mother Roll Batch.Queue.NumberInQueue       .00000     (Insuf)    .00000     5.0000     .00000    
+Daughter Roll Batch.Queue.NumberInQueue     .00000     (Insuf)    .00000     4.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+mother roll.NumberIn                        100.00    
+mother roll.NumberOut                       100.00    
+Cathode Slurry.NumberIn                     2000.0    
+Cathode Slurry.NumberOut                    2000.0    
+daughter roll.NumberIn                      500.00    
+daughter roll.NumberOut                     500.00    
+System.NumberOut                            2000.0    
+
+
+Simulation run time: 0.07 minutes.
+Simulation run complete.

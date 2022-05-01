@@ -3,35 +3,77 @@ roller knives
 dryer
 slot die coater
 mixer
+Robotic Manipulator
+Winder
 suction device
+Human
 heated vacuum chamber
 calendar rollers
 [VARIABLES]
 first coating.NumberOut
 second coating.NumberIn
 first coating.NumberIn
+Decide 4.NumberOut False
+Decide 5.NumberOut False
 Decide 1.NumberOut False
-second coating.NumberOut
 first drying.NumberIn
-Cathode Foil Arrival.NumberOut
-cathode coating batch.NumberOut
-Anode Foil Arrival.NumberOut
+second coating.NumberOut
+High Temperature Ageing.NumberOut
+Deconstruct Jelly Roll.NumberOut Orig
+Winding.NumberIn
+Sorting.NumberOut
+Sealing.NumberOut
+Insertion.NumberIn
+Hydrothermal.NumberIn
+Cell Clamping.NumberIn
+Cell Clamping.NumberOut
 cathode slurry mixing.NumberOut
 cathode slurry mixing.NumberIn
-Anode Roll.NumberOut
-Cathode Slurry Arrival.NumberOut
-Process Roll.NumberOut
+Formation.NumberIn
+Regenerated LiFePO4.NumberOut
 anode slurry mixing.NumberIn
+Daughter Roll to Cell A.NumberOut Orig
+Daughter Roll to Cell C.NumberOut Orig
 anode slurry mixing.NumberOut
-Anode Slurry Arrival.NumberOut
 second drying.NumberIn
+Aging.NumberOut
+Cooling Channel.NumberIn
+welding.NumberIn
+High Temperature Ageing.NumberIn
 second drying.NumberOut
+welding.NumberOut
+Anode Material Arrival.NumberOut
+Aging.NumberIn
 splitting and cleaning.NumberIn
 splitting and cleaning.NumberOut
-anode coating batch.NumberOut
+Cathode Material Arrival.NumberOut
+Batch Mother Roll A.NumberOut
+Undo Drying Batch.NumberOut Orig
+vacuum drying.NumberOut
 first drying.NumberOut
-Vacuum Drying.NumberOut
-Vacuum Drying.NumberIn
+Insertion.NumberOut
+Individual Cell.NumberOut Orig
+Winding.NumberOut
+vacuum drying.NumberIn
+Batch Daughter Rolls A.NumberOut
+Gather Regenerated Materials.NumberOut Orig
+Batch Mother Roll C.NumberOut
+Hydrothermal.NumberOut
+Cell Tray 1.NumberOut
+Mother to Daughter Rolls.NumberOut Orig
+Hummers.NumberIn
+Sealing.NumberIn
+Formation.NumberOut
+Sorting.NumberIn
 calendaring and cleaning.NumberIn
 calendaring and cleaning.NumberOut
+Cooling Channel.NumberOut
+Hummers.NumberOut
+Batch Daughter Roll C.NumberOut
+Electroliyte Filling.NumberIn
+Regenerated RGO.NumberOut
+Electroliyte Filling.NumberOut
+Decide 4.NumberOut True
+Decide 5.NumberOut True
 Decide 1.NumberOut True
+Drying Batch.NumberOut
